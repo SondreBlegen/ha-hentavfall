@@ -1,0 +1,19 @@
+{
+    "domain": "hentavfall",
+    "name": "HentAvfall",
+    "documentation": "https://github.com/sondreblegen/ha-hentavfall",
+    "issue_tracker": "https://github.com/sondreblegen/ha-hentavfall/issues",
+    "codeowners": [
+        "@sondreblegen"
+    ],
+    "config_flow": true,
+    "iot_class": "cloud_polling",
+    "version": "1.0.0",
+    "requirements": [
+        "aiohttp",
+        "beautifulsoup4"
+    ],
+    "loggers": [
+        "custom_components.hentavfall"
+    ]
+}
